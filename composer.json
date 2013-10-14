@@ -16,7 +16,7 @@
 		"nette/nette": "2.0.*"
 	},
 	"autoload": {
-		"classmap": ["libs/GoogleMapsImage.php", "classes"]
+		"classmap": ["libs"]
 	},
 	"repositories": [
 		{
