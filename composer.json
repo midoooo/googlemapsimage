@@ -1,5 +1,5 @@
 {
-    "name": "RHrebecek/GoogleMapsImage",
+    "name": "rhrebecek/googlemapsimage",
     "type": "library",
     "description": "Tool for generating images from Google Maps",
     "keywords": ["google", "maps", "image", "nette"],
