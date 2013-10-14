@@ -1,6 +1,19 @@
 <?php
 
 /**
+ * Check PHP configuration.
+ */
+if (version_compare(PHP_VERSION, '5.2.0', '<')) {
+	throw new Exception('GoogleMapsImage needs PHP 5.2.0 or newer.');
+}
+
+if (!class_exists('Nette\Framework')) {
+	die('You must load Nette Framework first');
+}
+
+@set_magic_quotes_runtime(FALSE); // intentionally @
+
+/**
  * New BSD License
  * ---------------
  *
